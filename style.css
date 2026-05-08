@@ -7,6 +7,7 @@
 body {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .container {
   max-width: 400px;
@@ -16,6 +17,7 @@ body {
   box-shadow: -2px 0 0 5px black;
   padding: 15px;
 }
+
 h1 {
   font-family: "Poppins", sans-serif;
 }
@@ -33,4 +35,19 @@ a {
 a:hover {
   color: rgb(222, 41, 173);
   transition: color 0.2s ease;
+}
+
+.pricing-container {
+  min-width: 80vw;
+  min-height: 80vh;
+}
+.domain-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.pro {
+  background-color: teal;
+  color: white;
 }
