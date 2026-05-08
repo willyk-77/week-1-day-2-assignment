@@ -47,7 +47,7 @@ a:hover {
   align-items: center;
   gap: 10px;
 }
-.pro {
-  background-color: teal;
-  color: white;
+article {
+  background-color: rgb(221, 25, 25);
+  border-radius: 8px;
 }
