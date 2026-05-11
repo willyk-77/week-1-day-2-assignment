@@ -13,7 +13,7 @@
   background-color: #f5f5f5;
   border-left: solid rgba(243, 163, 3, 0.7) 4px;
   border-radius: 8px;
-  box-shadow: -2px 0 0 5px black;
+  box-shadow: -3px 0 5px 5px black;
   padding: 15px;
 }
 
@@ -85,6 +85,13 @@ a:hover {
   flex-direction: column;
   align-items: center;
 }
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
 .pro {
   background-color: black;
   color: darkgray;
@@ -93,6 +100,7 @@ a:hover {
 
 .pro:hover {
   box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.7);
+  transition: all 0.3s ease;
 }
 
 .package-name {
@@ -131,6 +139,7 @@ a:hover {
   border-radius: 8px;
   font-weight: 600;
 }
+
 .card-btn:hover {
   background-color: orange;
   transition: color 0.3s ease;
@@ -141,4 +150,17 @@ a:hover {
 }
 main {
   margin-bottom: 20px;
+}
+
+/* Media Queries */
+/* 1. If screensize is less than 1024px  */
+@media (width: 1024px) {
+  
+}
+@media (width: 728px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
