@@ -17,6 +17,22 @@
   padding: 15px;
 }
 
+.navlinks {
+  display: flex;
+  justify-content: right;
+  color: white;
+  font-weight: 700;
+  list-style: none;
+  border-bottom: solid 2px black;
+  padding: 5px;
+}
+nav li {
+  margin-right: 20px;
+}
+nav ul a {
+  text-decoration: none;
+}
+
 h1 {
   font-family: "Poppins", sans-serif;
 }
@@ -155,12 +171,10 @@ main {
 /* Media Queries */
 /* 1. If screensize is less than 1024px  */
 @media (width: 1024px) {
-  
 }
 @media (width: 728px) {
   .cards {
     flex-direction: column;
     align-items: center;
   }
-
 }
